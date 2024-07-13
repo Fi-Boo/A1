@@ -134,7 +134,7 @@ NodeList* PathSolver::getPath(Env env) {
             reachedStart = true;
 
         } else {
-            
+
             // check for up position
             if (env[row - 1][col] != SYMBOL_WALL && existsInList(row - 1, col, nodesExplored) && !existsInList(row - 1, col, shortestPath) && getNodeByRowCol(row - 1, col, nodesExplored)->getDistanceTraveled() == distance - 1) {
                 

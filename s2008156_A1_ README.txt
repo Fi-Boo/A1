@@ -1,0 +1,85 @@
+Advanced Programming Techniques SP2 2024
+
+Assignment 1 
+
+by Phi Van Bui s2008156
+
+----------------------------------------------------------------------
+
+Milestone 1: *Complete* ~21/06/2024
+
+Test ranged from simple 1 turn to multiple branches.
+Test generation completed without issues.
+
+Encountered Bugs: 
+None
+
+Additional Comments: 
+NA
+
+----------------------------------------------------------------------
+
+Milestone 2: *Complete* ~24/06/2024
+
+Function to load sample test env to 2D Array.
+Additional variables and functions created in associated class files.
+Function to iterate through the maze and check for valid pathways
+completed.
+
+Encountered Bugs: 
+Some errors in coding particular values when searching directions 
+kept breaking the app. 
+Mostly user error due to 'copy and pasting' code and not validating.
+e.g. search up -> (row-1)(col)... being copied and used for search 
+left which is suppose to be (row)(col-1). 
+
+Compiled and executed fine. Error only discovered when using console 
+output code to generate values during testing.
+
+Additional Comments:
+Had to revisit code examples and the A1 search algorithm video quite 
+a few times. Still some issues grasping basic concept of using * and &.
+
+
+----------------------------------------------------------------------
+
+Milestone 3: *Complete* ~25/06/2024
+
+Function to iterate through NodeExplored list and check against loaded 
+maze for shortest path.
+Function to generate pathway directional arrows to output a solution 
+
+Encountered Bugs:
+Early attempts to solution a working algorithm failed.
+First attempt involved going from the end of the NodeExplored list 
+and looking for a connecting block from the same list prior to checking 
+against the loaded env. This created errors and broke the app by 
+generating an endless loop.
+
+Second attempt involved a method similar to Milestone 2 and generating 
+a list then comparing the results to NodeExplored. This was abandoned 
+as the process got out of hand and too overly bloated.
+
+Final attempt used lengthy if statements. Result achieved however, I do 
+wonder if there's an easier way then using long if and/or statements
+
+Outputting solution ran into some issues with outputting the correct 
+turn arrow.
+Resolved it by running the output generation backwards 
+
+Additional Comments:
+
+This milestone was significantly more challenging than Milestone 2, 
+however the challenge was quite satisfying to overcome. Having started
+over a few times with attempts gave me a chance to grasp the usage 
+of * and & a little better.
+
+----------------------------------------------------------------------
+
+Milestone 4: *Incomplete*
+
+This milestone was not attempted due to lack of time due to study 
+commitments from 2 other courses. Will definitely try
+it in my spare time though. 
+
+
